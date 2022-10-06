@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\fiska\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\fiska\\.nuget\\packages"
+    ]
+  }
+}

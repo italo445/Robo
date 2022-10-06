@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RoboCartaoOtimo</id>
+    <version>1.0.0</version>
+    <authors>RoboCartaoOtimo</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Aspose.Cells" version="22.9.0" exclude="Build,Analyzers" />
+        <dependency id="ClosedXML" version="0.96.0" exclude="Build,Analyzers" />
+        <dependency id="ConfigMapFileProvider" version="2.0.1" exclude="Build,Analyzers" />
+        <dependency id="Docker.DotNet" version="3.125.12" exclude="Build,Analyzers" />
+        <dependency id="DotNetSeleniumExtras.WaitHelpers" version="3.11.0" exclude="Build,Analyzers" />
+        <dependency id="Emgu.CV" version="4.5.5.4823" exclude="Build,Analyzers" />
+        <dependency id="Emgu.CV.runtime.windows" version="4.5.5.4823" exclude="Build,Analyzers" />
+        <dependency id="FunkyBDD.SxS.Selenium.WebElement" version="2.0.1" exclude="Build,Analyzers" />
+        <dependency id="IKVM" version="8.2.1" exclude="Build,Analyzers" />
+        <dependency id="MSTest.TestFramework" version="2.2.10" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="NPOI" version="2.5.6" exclude="Build,Analyzers" />
+        <dependency id="Selenium.Support" version="4.4.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver" version="4.4.0" exclude="Build,Analyzers" />
+        <dependency id="Selenium.WebDriver.ChromeDriver" version="105.0.5195.5200" exclude="Build,Analyzers" />
+        <dependency id="SpreadsheetLight" version="3.5.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\fiska\source\repos\RoboCartaoOtimo\RoboCartaoOtimo\bin\Debug\net5.0\RoboCartaoOtimo.runtimeconfig.json" target="lib\net5.0\RoboCartaoOtimo.runtimeconfig.json" />
+    <file src="C:\Users\fiska\source\repos\RoboCartaoOtimo\RoboCartaoOtimo\bin\Debug\net5.0\RoboCartaoOtimo.dll" target="lib\net5.0\RoboCartaoOtimo.dll" />
+  </files>
+</package>
