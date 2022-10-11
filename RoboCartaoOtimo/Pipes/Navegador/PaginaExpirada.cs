@@ -19,8 +19,8 @@ namespace RoboCartaoOtimo.Pipes.Navegador
             ChromeDriver driver = input.driver;
 
             driver.FindElement(By.Name("EXPIROU")).Click();
-            driver.FindElement(By.Id(@"LOGIN")).SendKeys("02.455.233/0001-04");
-            driver.FindElement(By.Id(@"SENHA")).SendKeys("70492546");
+            driver.FindElement(By.Id(@"LOGIN")).SendKeys("");
+            driver.FindElement(By.Id(@"SENHA")).SendKeys("");
             driver.FindElement(By.XPath("//img[@alt='Conectar na Aplicação']")).Click();
 
 
