@@ -20,7 +20,7 @@ namespace RoboCartaoOtimo.Pipes.Leitura
 
 
             //EXTRACAO STATUS CARTAO
-            FileStream fstream = new FileStream(@"C:\Users\aec.uipath3\Downloads\ExtracaoStatusCartao.xls", FileMode.Open);
+            FileStream fstream = new FileStream(@"C:\Users\Downloads\ExtracaoStatusCartao.xls", FileMode.Open);
             Workbook workbook = new Workbook(fstream);
             Worksheet worksheet = workbook.Worksheets[0];
             var totalLinhas = worksheet.Cells.Rows.Count;
@@ -42,7 +42,7 @@ namespace RoboCartaoOtimo.Pipes.Leitura
 
 
             //EXTRACAO SALDO CARTAO
-            FileStream fs = new FileStream(@"C:\Users\aec.uipath3\Downloads\ExtracaoSaldoCartao.xls", FileMode.Open);
+            FileStream fs = new FileStream(@"C:\Users\Downloads\ExtracaoSaldoCartao.xls", FileMode.Open);
             Workbook work = new Workbook(fs);
             Worksheet wt = work.Worksheets[0];
             var tot = wt.Cells.Rows.Count;
@@ -159,24 +159,7 @@ namespace RoboCartaoOtimo.Pipes.Leitura
             }
 
 
-            //for (int i = 0; i <= table.Rows.Count || totalLinhas>contador2; i++)
-            //{
-
-            //}                     
-            //Console.WriteLine(query + " " + builder.ToString());
-            //Console.ReadLine();                                                                                     
-
-
-            //db.ConexaoFiskal conexaoFiskal = new db.ConexaoFiskal();
-            //foreach (DataRow row in table.Rows)
-            //{
-            //    var saldo = String.IsNullOrEmpty(row.ItemArray[3].ToString()) || row.ItemArray[3].ToString() == "" ? "0" : row.ItemArray[3].ToString();
-            //    string query = @$"INSERT INTO Fiskal_RPA.RH.Saldo 
-            //                      (DATAEXTRACAO, FORNECEDOR, MATRICULA, SALDO, NOME, CARTAO, MES, CIDADE, STATUSCARTAO) 
-            //                      values ('{row.ItemArray[0]}', '{row.ItemArray[1]}', '{row.ItemArray[2]}', {saldo}, '{row.ItemArray[4]}', '{row.ItemArray[5]}', '{row.ItemArray[6]}', '{row.ItemArray[7]}', '{row.ItemArray[8]}')";
-            //    //Console.WriteLine(query);                
-            //    conexaoFiskal.ExecuteQuerySemRetorno(query);
-            //}
+           
 
             return input;
         }
