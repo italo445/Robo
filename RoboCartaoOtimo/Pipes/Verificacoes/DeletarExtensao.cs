@@ -15,7 +15,7 @@ namespace RoboCartaoOtimo.Pipes.Verificacoes
 
             
             //??LEMBRAR DE ALTERAR CAMINHO??
-            string[] arquivos = Directory.GetFiles(@"C:\Users\aec.uipath3\Downloads", "*.xls");
+            string[] arquivos = Directory.GetFiles(@"C:\Users\Downloads", "*.xls");
        
             foreach (var arq in arquivos)
             {
