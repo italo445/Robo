@@ -18,7 +18,7 @@ namespace RoboCartaoOtimo.Pipes.Navegador
 
 
             if (input.cont==1) {
-                string[] arquivos = Directory.GetFiles(@"C:\Users\aec.uipath3\Downloads", "*.xls");
+                string[] arquivos = Directory.GetFiles(@"C:\Users\Downloads", "*.xls");
                 string newFile = @"C:\Users\aec.uipath3\Downloads\ExtracaoSaldoCartao.xls";
                 string teste = "";
                 foreach (var arq in arquivos)
@@ -37,7 +37,7 @@ namespace RoboCartaoOtimo.Pipes.Navegador
 
             else
             {
-                string[] arquivos = Directory.GetFiles(@"C:\Users\aec.uipath3\Downloads", "*.xls");
+                string[] arquivos = Directory.GetFiles(@"C:\Users\Downloads", "*.xls");
                 string newFile = @"C:\Users\aec.uipath3\Downloads\ExtracaoStatusCartao.xls";
                 string teste = "";
 
