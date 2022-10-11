@@ -22,7 +22,7 @@ namespace RoboCartaoOtimo.Pipes.Leitura
 
 
             //tabela status cartao
-            Workbook wb = new Workbook(@"C:\Users\fiska\Downloads\ExtracaoStatusCartao.xls");
+            Workbook wb = new Workbook(@"C:\Users\Downloads\ExtracaoStatusCartao.xls");
             wb.Save(@"C:\Users\fiska\Downloads\ExtracaoStatusCartao.xlsx", SaveFormat.Xlsx);
             var xls = new XLWorkbook(@"C:\Users\fiska\Downloads\ExtracaoStatusCartao.xlsx");
             var planilha = xls.Worksheets.First(w => w.Name == "Sheet1");
@@ -31,7 +31,7 @@ namespace RoboCartaoOtimo.Pipes.Leitura
     
 
             //tabela saldo cartao
-            Workbook wk = new Workbook(@"C:\Users\fiska\Downloads\ExtracaoSaldoCartao.xls");
+            Workbook wk = new Workbook(@"C:\Users\Downloads\ExtracaoSaldoCartao.xls");
             wk.Save(@"C:\Users\fiska\Downloads\ExtracaoSaldoCartao.xlsx", SaveFormat.Xlsx);
             var xls2 = new XLWorkbook(@"C:\Users\fiska\Downloads\ExtracaoSaldoCartao.xlsx");
             var planilha2 = xls2.Worksheets.First(k => k.Name == "Sheet1");
